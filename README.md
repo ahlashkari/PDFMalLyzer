@@ -12,7 +12,13 @@ pdf_feature_extractor.py is the main module which is extracts a set of general a
 
 ## Prerequisites
 This program runs on Linux operating systems only. It also requires an installation of python3 along with the fitz library.
-In order to run the program, navigate to the directory where the pdf_feature_extractor is. Then run the following command in the cmd
+In order to run the program, navigate to the directory where the pdf_feature_extractor is. Then run the following command in the cmd. The first argument must be the path of a folder containing a set of pdf files.
+
+`python3 pdf_feature_extractor.py pdf-folder-path`
+
+In case the libraries are not installed use the following commands to install them
+`pip install fitz`
+`pip install PyMuPDF`
 
 
 
