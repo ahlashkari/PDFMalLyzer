@@ -1,3 +1,0 @@
-Signature based: It uses a database of known signatures and specifications and searches the pdf for those signatures.
-\item Machine Learning based: In this technique firstly relevant features are extracted and then they are fed to the machine learning models to be classified.
-\item Deep Learning based: Similar to the above , in this approach we can can again extract the features or just feed the raw input into the deep learning model. Important indicative malware pdf features to extract
