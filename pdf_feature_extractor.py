@@ -1,17 +1,18 @@
-#import PyPDF2
 import csv
-from sys import getsizeof
 import sys
 import fitz
 import os
 import pandas as pd
 from fitz import TextPage
-dir = os.path.dirname(__file__)
+dir = os.getcwd()
 path = sys.argv[1]
 if(not os.path.isabs(path)):      #if the given path is not absolute, we should convert it to one
+         print("the path is path is "+str(path))
+         print("dir is "+str(dir))
          path = os.path.join(dir,path)
+         print("the path is not absolute and the new path is "+str(path))
 if(os.path.isdir(path)):
-        res = pd.DataFrame(columns=('pdfsize','metadata size', 'page','objects','title characters','isEncrypted','embedded files','contains text','images','label',))
+        res = pd.DataFrame(columns=('pdfsize','metadata size', 'page','objects','title characters','isEncrypted','embedded files','contains text','images'))
 else:
         print("specify a valid pdf folder path as an argument")
         sys.exit()
@@ -77,7 +78,7 @@ for j in os.listdir(path):
 
 
         #writing the features in a csv file
-        res.loc[i] = [pdfsize, len(str(metadata).encode('utf-8'))] + [numPages] + [objects] + [len(title)] + [isEncrypted] + [embedcount] + [found] + [imgcount]+ [1]
+        res.loc[i] = [pdfsize, len(str(metadata).encode('utf-8'))] + [numPages] + [objects] + [len(title)] + [isEncrypted] + [embedcount] + [found] + [imgcount]
         i +=1
 res.to_csv(os.path.relpath("result.csv",start=os.curdir))
 print("general features extracted successfully...")

@@ -658,7 +658,7 @@ def PDFiD2String(xmlDoc, nozero, force):
         return result + '***Error occured***\n%s\n' % xmlDoc.documentElement.getAttribute('ErrorMessage')
     if not force and xmlDoc.documentElement.getAttribute('IsPDF') == 'False':
         return result + ' Not a PDF document\n'
-    result += ' PDF Header: %s\n' % xmlDoc.documentElement.getAttribute('Header')
+    result += ' PDF-Header: %s\n' % xmlDoc.documentElement.getAttribute('Header')
     for node in xmlDoc.documentElement.getElementsByTagName('Keywords')[0].childNodes:
         if not nozero or nozero and int(node.getAttribute('Count')) > 0:
             result += ' %-16s %7d' % (node.getAttribute('Name'), int(node.getAttribute('Count')))
