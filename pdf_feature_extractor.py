@@ -16,7 +16,7 @@ if(not os.path.isabs(path)):      #if the given path is not absolute, we should 
          path = os.path.join(dir,path)
          print("the path is not absolute and the new path is "+str(path))
 if(os.path.isdir(path)):
-        res = pd.DataFrame(columns=('pdfsize','metadata size', 'page','objects','title characters','isEncrypted','embedded files','images','contains text',''))
+        res = pd.DataFrame(columns=('pdfsize','metadata size', 'pages','xref length','title characters','isEncrypted','embedded files','images','contains text',''))
 else:
         print("specify a valid pdf folder path as an argument")
         sys.exit()
