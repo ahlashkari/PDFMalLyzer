@@ -1,10 +1,6 @@
 # PDFMalLyzer
 This program extracts 30 different features from a set of pdf files specified by the user and wrires them on a csv file. The resulting csv file can be further studied for variety of purposes, most importantly detecting for detecting malicious pdf files.
 
-## Acknowledgement
-
-This project has been made possible through the Lockheed Martin Cybersecurity Research Fund (LMCRF) – from September 2020 to December 2021.
-
 ## Modules
 
 pdf_feature_extractor.py is the main module which is extracts a set of general and structural features. It utilizes the fitz library and the pdfid open source python tool.
@@ -32,6 +28,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  
 For citation in your works and also understanding DoHLyzer completely, you can find below published paper:
 ???????????????
+
+## Acknowledgement
+
+This project has been made possible through the Lockheed Martin Cybersecurity Research Fund (LMCRF) – from September 2020 to December 2021.
 
 ## Project Team members
 
