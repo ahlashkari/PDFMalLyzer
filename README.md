@@ -37,4 +37,5 @@ For citation in your works and also understanding DoHLyzer completely, you can f
 
 * [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 * [**MaryamIssakhani:**] Research and Development (MCS Student)
+* [**PrincyVictor:**] Research (PhD Student)
 
