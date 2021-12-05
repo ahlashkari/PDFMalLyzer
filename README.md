@@ -37,5 +37,4 @@ This project has been made possible through the Lockheed Martin Cybersecurity Re
 
 * [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 * [**Maryam Issakhani:**] Research and Development (MCS Student)
-* [**Princy Victor:**] Research (PhD Student)
 
