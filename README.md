@@ -28,7 +28,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  
 For citation in your works and also understanding DoHLyzer completely, you can find below published paper:
 
-Maryam Issakhani, Princy Victor, Ali Tekeoglu, and Arash Habibi Lashkari, "PDF Malware Detection Based on Stacking Learning", The 8th  International Conference on Information Systems Security and Privacy (ICISSP), 2022 
+Maryam Issakhani, Princy Victor, Ali Tekeoglu, and Arash Habibi Lashkari, "PDF Malware Detection Based on Stacking Learning", In the proceeding of the 8th  International Conference on Information Systems Security and Privacy (ICISSP), 2022 
 
 ## Acknowledgement
 
