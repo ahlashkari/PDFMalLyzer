@@ -26,7 +26,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  
-For citation in your works and also understanding DoHLyzer completely, you can find below published paper:
+For citation in your works and also understanding PDFMalLyzer completely, you can find below published paper:
 
 Maryam Issakhani, Princy Victor, Ali Tekeoglu, and Arash Habibi Lashkari, "PDF Malware Detection Based on Stacking Learning", In the proceeding of the 8th  International Conference on Information Systems Security and Privacy (ICISSP), 2022 
 
