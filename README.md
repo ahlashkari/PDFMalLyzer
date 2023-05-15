@@ -28,7 +28,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  
 For citation in your works and also understanding PDFMalLyzer completely, you can find below published paper:
 
-Maryam Issakhani, Princy Victor, Ali Tekeoglu, and Arash Habibi Lashkari, "PDF Malware Detection Based on Stacking Learning", In the proceeding of the 8th  International Conference on Information Systems Security and Privacy (ICISSP), 2022 
+```
+@inproceedings{issakhani2022pdf,
+  title={PDF Malware Detection based on Stacking Learning.},
+  author={Issakhani, Maryam and Victor, Princy and Tekeoglu, Ali and Lashkari, Arash Habibi},
+  booktitle={ICISSP},
+  pages={562--570},
+  year={2022}
+}
+```
 
 ## Acknowledgement
 
